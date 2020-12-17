@@ -1,0 +1,16 @@
+genkeypair: generates a key pair;
+
+alias: the alias name for the item we are generating;
+
+keyalg: the cryptographic algorithm to generate the key pair;
+
+keysize: the size of the key. We have used 2048 bits, but 4096 would be a better choice for production;
+
+storetype: the type of keystore;
+
+keystore: the name of the keystore;
+
+validity: validity number of days;
+
+storepass: a password for the keystore.
+
